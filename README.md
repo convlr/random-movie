@@ -2,15 +2,24 @@
 Pick a random movie from your letterboxd watchlist.
 
 ## Requirements
+* uv
 * letterboxdpy
 
-To generate a python virtual environment use the following commands:
+## Setup
+Clone this repo:
+```
+git clone https://github.com/convlr/random-movie
+cd random-movie
+```
+
+Sync dependencies:
 
 ```
-sudo apt install uv
-uv init
-uv add letterboxdpy
-uv run main
+uv sync
 ```
 
 Change `USERNAME` to your username.
+
+```
+uv run main
+```
