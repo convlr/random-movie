@@ -1,0 +1,9 @@
+[project]
+name = "letterboxd"
+version = "0.1.0"
+description = "Random movie generator"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "letterboxdpy>=6.5.7",
+]
